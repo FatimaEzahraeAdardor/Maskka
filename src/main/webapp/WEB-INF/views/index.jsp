@@ -5,6 +5,6 @@
 </head>
 <body>
 <h1>${message}</h1>
-<%--<a href="members">List of members</a>--%>
+<a href="members">List of members</a>
 </body>
 </html>
