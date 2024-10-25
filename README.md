@@ -19,29 +19,53 @@ such as creating, viewing, updating, and deleting users through a web interface.
 
 ### Project Structure
   src/main
+  
      java/org.example
+     
        controller
+       
          HomeController
+         
          MemberController
+         
        model
+       
          Member
+         
        repository
+       
          MemberRepository
+         
        service
+       
          implimentation
+         
            MemberService
+           
          Interface
+         
            MemberServiceInterface
+           
        Main
+       
      resources
+     
        spring-config.xml:Fichier de configuration XML qui définit les beans Spring, les connexions à la base de données aussi contenir la configuration pour JPA..
+       
      webapp/WEB-INF
+     
        views
+       
          index.jsp
+         
          members.jsp
+         
        spring-servlet.xml:Fichier de configuration spécifique à Spring MVC.
+       
        web.xml: Fichier de configuration des servlets dans une application Java.
+       
   pom.xml:Fichier de configuration Maven qui gère les dépendances du projet.
+  
 ### Dependency Injection (DI)
    L'Injection de Dépendances (DI) dans Spring Core est une technique qui fournir à une classe tout ce dont elle a besoin pour fonctionner (ses dépendances) sans que cette classe ait à créer ces objets elle-même.
      Types d'Injection de Dépendances dans Spring:
