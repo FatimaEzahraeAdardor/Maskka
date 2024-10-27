@@ -75,12 +75,11 @@ such as creating, viewing, updating, and deleting users through a web interface.
 ### Inversion of Control (IoC)
   L'inversion de contrôle (IoC) est un principe où c'est le framework (comme Spring) qui prend en charge la gestion des objets, au lieu que le programmeur gère manuellement leur création et leur cycle de vie.
 ### Spring Beans.
-   Les Spring Beans sont les objets qui forment l'épine dorsale d'une application  et sont gérés, créés et configurés par le conteneur Spring IoC (Inversion of Control). Ils peuvent être définis soit dans un fichier XML (comme applicationContext.xml), soit via des 
+   Les Spring Beans sont les objets gérés, créés et configurés par le conteneur Spring IoC (Inversion of Control). Ils peuvent être définis soit dans un fichier XML (comme applicationContext.xml), soit via des 
    annotations.
 ### Bean Scopes
   Les beans peuvent avoir différents scopes, tels que :
     singleton : Spring crée une seule instance du bean pour toute l'application.
-    prototype : Une nouvelle instance est créée à chaque fois que le bean est demandé.
     request : Une instance est créée pour chaque requête HTTP.
     session : Une instance est créée pour chaque session HTTP.
 ### ApplicationContext
@@ -88,7 +87,7 @@ such as creating, viewing, updating, and deleting users through a web interface.
 ### Component Scanning and Stereotype Annotations
 
 ### Spring Data JPA
-  Spring Data : Un module de Spring qui simplifie l'accès aux bases de données en fournissant des abstractions pour la gestion des opérations CRUD et la manipulation des données.
+  Spring Data : Un module de Spring qui simplifie l'accès aux bases de données.
 ### Spring MVC
-   Spring MVC : Un framework basé sur le modèle Vue-Contrôleur qui permet de créer des applications web en séparant la logique de présentation (vue) de la logique métier (modèle), tout en gérant les requêtes HTTP via des contrôleurs.
+   Spring MVC : Un framework basé sur le modèle Vue-Contrôleur qui permet de créer des applications web en séparant la logique de présentation (vue) de la logique métier (modèle).
 ### Installation and Setup
